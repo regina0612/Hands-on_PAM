@@ -8,7 +8,7 @@ fun main() {
     val intBox = Box(23)
     println("intBox.value = ${intBox.value}")
 
-    val cupBox = Box("cup") // Tipe parameter bisa di-infer
+    val cupBox = Box("cup") 
     println("cupBox.value = ${cupBox.value}")
   
     val stringBox = intBox.map {"$it"}
